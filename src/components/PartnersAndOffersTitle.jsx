@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-function PartnersAndOffersTitle(props) {
+function PartnersAndOffersTitle() {
   return (
     <div className="container">
       <div className="row justify-content-center">

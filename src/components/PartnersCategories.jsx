@@ -1,12 +1,12 @@
 import React from "react";
 import { Switch } from "@material-ui/core";
 import mvideoIcon from "../assets/Bitmap.png";
-import bkIcon from "../assets/bk-icon.png"
-import holod from "../assets/holod.png"
-import euro from "../assets/euro.png"
-import bork from "../assets/bork.png"
+import bkIcon from "../assets/bk-icon.png";
+import holod from "../assets/holod.png";
+import euro from "../assets/euro.png";
+import bork from "../assets/bork.png";
 
-function PartnersCategories(props) {
+function PartnersCategories() {
   const [state, setState] = React.useState({
     checkedA: true,
     checkedB: true,
@@ -79,9 +79,7 @@ function PartnersCategories(props) {
               <div className="partner-img">
                 <img src={mvideoIcon} alt="" />
               </div>
-              <p className="partner__name">
-                М.Видео
-              </p>
+              <p className="partner__name">М.Видео</p>
             </div>
           </div>
           <div className="col-xs-12 col-sm-6 col-md-2">
@@ -91,9 +89,7 @@ function PartnersCategories(props) {
               <div className="partner-img">
                 <img src={bkIcon} alt="" />
               </div>
-              <p className="partner__name">
-                М.Видео
-              </p>
+              <p className="partner__name">М.Видео</p>
             </div>
           </div>
           <div className="col-xs-12 col-sm-6 col-md-2">
@@ -103,9 +99,7 @@ function PartnersCategories(props) {
               <div className="partner-img">
                 <img src={holod} alt="" />
               </div>
-              <p className="partner__name">
-                Холодильник.ру
-              </p>
+              <p className="partner__name">Холодильник.ру</p>
             </div>
           </div>
           <div className="col-xs-12 col-sm-6 col-md-2">
@@ -115,9 +109,7 @@ function PartnersCategories(props) {
               <div className="partner-img">
                 <img src={bork} alt="" />
               </div>
-              <p className="partner__name">
-                Bork
-              </p>
+              <p className="partner__name">Bork</p>
             </div>
           </div>
           <div className="col-xs-12 col-sm-6 col-md-2">
@@ -127,9 +119,7 @@ function PartnersCategories(props) {
               <div className="partner-img">
                 <img src={euro} alt="" />
               </div>
-              <p className="partner__name">
-                Евросеть
-              </p>
+              <p className="partner__name">Евросеть</p>
             </div>
           </div>
         </div>

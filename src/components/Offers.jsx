@@ -2,9 +2,8 @@ import React from "react";
 import techparkPic from "../assets/tech-park-pic.png";
 import euroBFriday from "../assets/euro-black-friday.png";
 import mVideo from "../assets/m-video.png";
-import smallTechIcon from "../assets/partner-small1.png"
 
-function Offers(props) {
+function Offers() {
   return (
     <section className="offers">
       <div className="container">
@@ -38,9 +37,7 @@ function Offers(props) {
         </div>
         <div className="row justify-content-center">
           <div className="col-auto">
-            <button className="green-btn offers__btn">
-              Еще 4 предложения
-            </button>
+            <button className="green-btn offers__btn">Еще 4 предложения</button>
           </div>
         </div>
       </div>
